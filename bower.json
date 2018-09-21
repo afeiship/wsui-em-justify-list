@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-em-justify-list",
+  "description": "Em layout justify list",
+  "main": [
+    "dist/webkit-sassui-em-justify-list.css",
+    "dist/webkit-sassui-em-justify-list.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "em-justify-list"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-em-justify-list",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

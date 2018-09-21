@@ -1,0 +1,40 @@
+/*webkit-sassui-em-justify-list Start*/
+$webkit-sassui-em-justify-list-options: (
+  unit: 1em,
+  list: (
+    2,
+    3,
+    4,
+    5,
+    6
+  )
+) !default;
+
+.webkit-sassui-em-justify-list {
+  $unit: map-get(
+    $map: $webkit-sassui-em-justify-list-options,
+    $key: unit
+  );
+
+  $list: map-get(
+    $map: $webkit-sassui-em-justify-list-options,
+    $key: list
+  );
+
+  margin: -0.5em;
+  overflow: hidden;
+  > .item {
+    box-sizing: border-box;
+    float: left;
+    margin: $unit/2;
+  }
+
+  @each $item in $list {
+    &[data-count="#{$item}"] {
+      > .item {
+        width: calc(#{percentage(1 / $item)} - #{$unit});
+      }
+    }
+  }
+}
+/*webkit-sassui-em-justify-list End*/

@@ -1,0 +1,27 @@
+{
+  "name": "webkit-sassui-em-justify-list",
+  "version": "0.0.1",
+  "description": "Em layout justify list",
+  "homepage": "https://github.com/afeiship/webkit-sassui-em-justify-list",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp test",
+    "release": "gulp && gulp test"
+  },
+  "main": "dist/webkit-sassui-em-justify-list.scss",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "yargs": "^4.7.1"
+  }
+}
