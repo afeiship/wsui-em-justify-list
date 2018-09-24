@@ -21,7 +21,7 @@ $webkit-sassui-em-justify-list-options: (
     $key: list
   );
 
-  margin: -0.5em;
+  margin: -$unit/2;
   overflow: hidden;
   > .item {
     box-sizing: border-box;
