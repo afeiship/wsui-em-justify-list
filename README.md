@@ -1,13 +1,18 @@
 # webkit-sassui-em-justify-list
-> Em layout justify list
+> Em layout justify list.
 
-## usage:
-+ https://afeiship.github.io/webkit-sassui-em-justify-list/
+## documentation
+- https://afeiship.github.io/webkit-sassui-em-justify-list/
 
-```scss
-@import 'node_modules/webkit-sassui-em-justify-list/dist/webkit-sassui-em-justify-list.scss';
+## installation
+```shell
+npm i @feizheng/webkit-sassui-em-justify-list
 ```
 
+## usage
+```scss
+@import '~@feizheng/webkit-sassui-em-justify-list';
+```
 
-## resources:
+## resources
 + https://github.com/afeiship/generator-webkit-sassui
