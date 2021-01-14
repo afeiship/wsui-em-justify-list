@@ -39,6 +39,9 @@ npm i @jswork/wsui-em-justify-list
 </div>
 ```
 
+## resources
+- https://afeiship.github.io/wsui-em-justify-list/
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/wsui-em-justify-list/blob/master/LICENSE.txt).
 
