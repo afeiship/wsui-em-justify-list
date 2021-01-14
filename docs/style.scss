@@ -1,11 +1,11 @@
 @import "../dist/index.scss";
 
-.test-webkit-sassui-em-justify-list {
+.test-wsui-em-justify-list {
   border: 1px solid red;
   width: 80%;
   margin: 0 auto 20px;
 
-  .item {
+  .is-item {
     border: 4px solid lightgreen;
     h1 {
       margin: 0;
@@ -22,11 +22,11 @@
     }
   }
 
-  .item:nth-child(2n) {
+  .is-item:nth-child(2n) {
     background: salmon;
   }
 
-  .item:nth-child(2n-1) {
+  .is-item:nth-child(2n-1) {
     background: seagreen;
   }
 }

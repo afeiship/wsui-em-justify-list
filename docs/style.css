@@ -1,74 +1,74 @@
 /*!
- * name: @feizheng/webkit-sassui-em-justify-list
+ * name: @jswork/wsui-em-justify-list
  * description: Em layout justify list.
- * url: https://github.com/afeiship/webkit-sassui-em-justify-list
+ * homepage: https://github.com/afeiship/wsui-em-justify-list
  * version: 1.0.0
- * date: 2020-02-23 14:35:23
+ * date: 2021-01-14 17:41:37
  * license: MIT
  */
-/*webkit-sassui-em-justify-list Start*/
-.webkit-sassui-em-justify-list {
+/*wsui-em-justify-list Start*/
+.wsui-em-justify-list {
   margin: -0.5em;
   overflow: hidden;
 }
 
-.webkit-sassui-em-justify-list > .item {
+.wsui-em-justify-list > .is-item {
   box-sizing: border-box;
   float: left;
   margin: 0.5em;
 }
 
-.webkit-sassui-em-justify-list[data-count="2"] > .item {
+.wsui-em-justify-list[data-count="2"] > .is-item {
   width: calc(50% - 1em);
 }
 
-.webkit-sassui-em-justify-list[data-count="3"] > .item {
+.wsui-em-justify-list[data-count="3"] > .is-item {
   width: calc(33.33333% - 1em);
 }
 
-.webkit-sassui-em-justify-list[data-count="4"] > .item {
+.wsui-em-justify-list[data-count="4"] > .is-item {
   width: calc(25% - 1em);
 }
 
-.webkit-sassui-em-justify-list[data-count="5"] > .item {
+.wsui-em-justify-list[data-count="5"] > .is-item {
   width: calc(20% - 1em);
 }
 
-.webkit-sassui-em-justify-list[data-count="6"] > .item {
+.wsui-em-justify-list[data-count="6"] > .is-item {
   width: calc(16.66667% - 1em);
 }
 
-/*webkit-sassui-em-justify-list End*/
-.test-webkit-sassui-em-justify-list {
+/*wsui-em-justify-list End*/
+.test-wsui-em-justify-list {
   border: 1px solid red;
   width: 80%;
   margin: 0 auto 20px;
 }
 
-.test-webkit-sassui-em-justify-list .item {
+.test-wsui-em-justify-list .is-item {
   border: 4px solid lightgreen;
 }
 
-.test-webkit-sassui-em-justify-list .item h1 {
+.test-wsui-em-justify-list .is-item h1 {
   margin: 0;
   padding: 0;
   font-size: 14px;
   color: #fff;
 }
 
-.test-webkit-sassui-em-justify-list .item p {
+.test-wsui-em-justify-list .is-item p {
   color: #333;
   font-size: 12px;
 }
 
-.test-webkit-sassui-em-justify-list .item img {
+.test-wsui-em-justify-list .is-item img {
   width: 100%;
 }
 
-.test-webkit-sassui-em-justify-list .item:nth-child(2n) {
+.test-wsui-em-justify-list .is-item:nth-child(2n) {
   background: salmon;
 }
 
-.test-webkit-sassui-em-justify-list .item:nth-child(2n-1) {
+.test-wsui-em-justify-list .is-item:nth-child(2n-1) {
   background: seagreen;
 }

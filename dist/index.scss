@@ -1,14 +1,14 @@
 /*!
- * name: @feizheng/webkit-sassui-em-justify-list
+ * name: @jswork/wsui-em-justify-list
  * description: Em layout justify list.
- * url: https://github.com/afeiship/webkit-sassui-em-justify-list
+ * homepage: https://github.com/afeiship/wsui-em-justify-list
  * version: 1.0.0
- * date: 2020-02-23 14:35:23
+ * date: 2021-01-14 17:41:37
  * license: MIT
  */
 
-/*webkit-sassui-em-justify-list Start*/
-$webkit-sassui-em-justify-list-options: (
+/*wsui-em-justify-list Start*/
+$wsui-em-justify-list-options: (
   unit: 1em,
   list: (
     2,
@@ -19,20 +19,20 @@ $webkit-sassui-em-justify-list-options: (
   )
 ) !default;
 
-.webkit-sassui-em-justify-list {
+.wsui-em-justify-list {
   $unit: map-get(
-    $map: $webkit-sassui-em-justify-list-options,
+    $map: $wsui-em-justify-list-options,
     $key: unit
   );
 
   $list: map-get(
-    $map: $webkit-sassui-em-justify-list-options,
+    $map: $wsui-em-justify-list-options,
     $key: list
   );
 
   margin: -$unit/2;
   overflow: hidden;
-  > .item {
+  > .is-item {
     box-sizing: border-box;
     float: left;
     margin: $unit/2;
@@ -40,10 +40,10 @@ $webkit-sassui-em-justify-list-options: (
 
   @each $item in $list {
     &[data-count="#{$item}"] {
-      > .item {
+      > .is-item {
         width: calc(#{percentage(1 / $item)} - #{$unit});
       }
     }
   }
 }
-/*webkit-sassui-em-justify-list End*/
+/*wsui-em-justify-list End*/
