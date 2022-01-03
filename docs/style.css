@@ -3,7 +3,7 @@
  * description: Em layout justify list.
  * homepage: https://github.com/afeiship/wsui-em-justify-list
  * version: 1.0.0
- * date: 2021-01-14 17:43:01
+ * date: 2022-01-03 22:56:41
  * license: MIT
  */
 /*wsui-em-justify-list Start*/
@@ -11,31 +11,25 @@
   margin: -0.5em;
   overflow: hidden;
 }
-
 .wsui-em-justify-list > .is-item {
   box-sizing: border-box;
   float: left;
   margin: 0.5em;
 }
-
 .wsui-em-justify-list[data-count="2"] > .is-item {
   width: calc(50% - 1em);
 }
-
 .wsui-em-justify-list[data-count="3"] > .is-item {
-  width: calc(33.33333% - 1em);
+  width: calc(33.3333333333% - 1em);
 }
-
 .wsui-em-justify-list[data-count="4"] > .is-item {
   width: calc(25% - 1em);
 }
-
 .wsui-em-justify-list[data-count="5"] > .is-item {
   width: calc(20% - 1em);
 }
-
 .wsui-em-justify-list[data-count="6"] > .is-item {
-  width: calc(16.66667% - 1em);
+  width: calc(16.6666666667% - 1em);
 }
 
 /*wsui-em-justify-list End*/
@@ -44,31 +38,25 @@
   width: 80%;
   margin: 0 auto 20px;
 }
-
 .test-wsui-em-justify-list .is-item {
   border: 4px solid lightgreen;
 }
-
 .test-wsui-em-justify-list .is-item h1 {
   margin: 0;
   padding: 0;
   font-size: 14px;
   color: #fff;
 }
-
 .test-wsui-em-justify-list .is-item p {
   color: #333;
   font-size: 12px;
 }
-
 .test-wsui-em-justify-list .is-item img {
   width: 100%;
 }
-
 .test-wsui-em-justify-list .is-item:nth-child(2n) {
   background: salmon;
 }
-
 .test-wsui-em-justify-list .is-item:nth-child(2n-1) {
   background: seagreen;
 }
