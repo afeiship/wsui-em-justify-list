@@ -1,6 +1,4 @@
 /*wsui-em-justify-list Start*/
-@use "sass:math";
-
 $wsui-em-justify-list-options: (
   unit: 1em,
   list: (
@@ -23,18 +21,18 @@ $wsui-em-justify-list-options: (
     $key: list,
   );
 
-  margin: math.div($unit, -2);
+  margin: -$unit/2;
   overflow: hidden;
   > .is-item {
     box-sizing: border-box;
     float: left;
-    margin: math.div($unit, 2);
+    margin: $unit/2;
   }
 
   @each $item in $list {
     &[data-count="#{$item}"] {
       > .is-item {
-        width: calc(#{percentage(math.div(1, $item))} - #{$unit});
+        width: calc(#{percentage(1 / $item)} - #{$unit});
       }
     }
   }
